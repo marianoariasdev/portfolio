@@ -1,0 +1,25 @@
+---
+import Title from "../components/Title.astro";
+import { info } from "../info.js";
+
+const { education } = info;
+---
+
+<Title text="Education" />
+
+<ul class="mt-4 mb-6">
+  {
+    education.map((item) => (
+      <li class="mb-2">
+        <h3 class="font-semibold uppercase">{item.degree}</h3>
+        <p>{item.institution}</p>
+        {item.startDate && (
+          <p class="text-gray-500">
+            {item.startDate} - {item.endDate}
+          </p>
+        )}
+        {item.observation && <p class="text-gray-500">{item.observation}</p>}
+      </li>
+    ))
+  }
+</ul>

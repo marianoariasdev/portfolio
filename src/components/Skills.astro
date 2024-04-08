@@ -1,0 +1,22 @@
+---
+import Title from "../components/Title.astro";
+
+import { info } from "../info.js";
+const { skills } = info;
+---
+
+<Title text="Skills" />
+
+<ul class="mb-6 mt-4">
+  {
+    skills.map((skill) => (
+      <li class="mb-2">
+        <h3 class="font-semibold uppercase">{skill.name}</h3>
+        <div
+          class="h-0.5 rounded bg-blue-500"
+          style={{ width: `${skill.percentage}%` }}
+        />
+      </li>
+    ))
+  }
+</ul>
