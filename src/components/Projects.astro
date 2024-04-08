@@ -9,7 +9,7 @@ const { projects } = info;
 
 <ul class="grid grid-cols-2 gap-2 mt-4 mb-6">
   {
-    projects.map((project) => (
+    projects.length ? projects.map((project) => (
       <li class="mb-1">
         <h3 class="font-semibold uppercase">
           <span>⭐</span>
@@ -20,5 +20,7 @@ const { projects } = info;
         <p>{project.description}</p>
       </li>
     ))
+
+    : <li>No projects yet</li>
   }
 </ul>

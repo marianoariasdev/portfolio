@@ -69,26 +69,6 @@ export const info = {
     },
   ],
   projects: [
-    {
-      name: "E-commerce",
-      description: "E-commerce website with Laravel and Vue",
-      url: "https://google.com",
-    },
-    {
-      name: "Blog",
-      description: "Blog website with Laravel and Vue",
-      url: "https://google.com",
-    },
-    {
-      name: "Portfolio",
-      description: "Portfolio website with React",
-      url: "https://google.com",
-    },
-    {
-      name: "Social Network",
-      description: "Social network with Laravel and Vue",
-      url: "https://google.com",
-    }
   ],
   experience: [
     {
