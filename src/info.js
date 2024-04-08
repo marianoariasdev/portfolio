@@ -22,7 +22,7 @@ export const info = {
     },
   ],
   description:
-    "I'm a software engineer with experience in web development, I'm passionate about technology and I love to learn new things. I'm always looking for new challenges and opportunities to grow as a professional.",
+    "Argentine-born web developer crafting captivating digital experiences. I bring websites to life with seamless functionality and stunning design.",
   skills: [
     {
       name: "HTML5",
@@ -42,6 +42,10 @@ export const info = {
     },
     {
       name: "Vue",
+      percentage: 60,
+    },
+    {
+      name: "Astro",
       percentage: 60,
     },
     {
