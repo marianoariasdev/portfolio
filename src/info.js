@@ -11,12 +11,14 @@ export const info = {
   email: "marianoariasdev@gmail.com",
   social: [
     {
-      name: "linkedin",
+      name: "Linkedin",
       url: "https://www.linkedin.com/in/mariano-arias-066989176/",
+      userName: "marianoariasdev"
     },
     {
-      name: "github",
+      name: "Github",
       url: "https://github.com/marianoariasdev",
+      userName: "marianoariasdev"
     },
   ],
   description:
