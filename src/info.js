@@ -2,12 +2,12 @@ const getYearsOfExperience = () => {
   const startDate = new Date("2023-02-01");
   const currentDate = new Date();
   const years = currentDate.getFullYear() - startDate.getFullYear();
-  return years;
+  return years == 1 ? `${years} year` : `${years} years`;
 };
 
 export const info = {
   name: "Mariano Arias",
-  title: `Web Full Stack +${getYearsOfExperience()} years experience`,
+  title: `Web Full Stack +${getYearsOfExperience()} experience`,
   email: "marianoariasdev@gmail.com",
   social: [
     {
@@ -73,17 +73,10 @@ export const info = {
   experience: [
     {
       title: "Full Stack Developer",
-      company: "Freelancer",
-      startDate: "2020-01-01",
-      endDate: "2021-01-01",
-      description: "Web development with Laravel and Vue",
+      company: "SAED: Sede Administrativa de Escuelas Diosesanas",
+      startDate: "2022-02-01",
+      endDate: "Actual",
+      description: "I specialized in web development at SAED, focusing on accounting tasks like managing payment records from private schools and supporting HR with income and teacher incentives data. Utilized Laravel, jQuery, JavaScript, MySQL and others technologies for system development, alongside maintenance of various IT systems within the administration.",
     },
-    {
-      title: "Full Stack Developer",
-      company: "Freelancer",
-      startDate: "2021-01-01",
-      endDate: "2022-01-01",
-      description: "Web development with Laravel and Vue",
-    }
   ]
 };
